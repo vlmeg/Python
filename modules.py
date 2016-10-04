@@ -15,3 +15,8 @@ print pvlib.__file__
 
 import pvlib
 print dir(pvlib)
+
+'''Output installed packages in requirements format.
+packages are listed in a case-insensitive sorted order.'''
+
+pip freeze
